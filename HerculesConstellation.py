@@ -4,6 +4,11 @@ import time
 #printed the text and used sleep() to pause for 30 seconds , then screen.clear() executes
 star=turtle.Turtle()
 screen = turtle.Screen()
+
+#To make the turtle run in full screen
+screen.screensize()
+screen.setup(width = 1.0, height = 1.0)
+
 star.hideturtle()
 star.pencolor("white")
 screen.bgcolor("grey")
@@ -18,6 +23,10 @@ star.pendown()
 star.hideturtle()
 time.sleep(30)
 screen.clear()
+
+#Displayed image
+screen.bgpic("hercules.png")
+time.sleep(30)
 
 
 
