@@ -1,5 +1,6 @@
 import turtle
 import time
+import tkinter
 
 #printed the text and used sleep() to pause for 30 seconds , then screen.clear() executes
 star=turtle.Turtle()
@@ -21,12 +22,34 @@ star.goto(-37,-85)
 star.write("Srikar Reddy",True,font=style,align='center')
 star.pendown()
 star.hideturtle()
-time.sleep(30)
+time.sleep(3)
 screen.clear()
 
-#Displayed image
-screen.bgpic("hercules.png")
-time.sleep(30)
+#Display the background image
+screen.bgpic("hercules.gif")
+time.sleep(3)
+screen.clear()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
